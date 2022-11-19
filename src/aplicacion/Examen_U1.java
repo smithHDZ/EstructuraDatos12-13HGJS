@@ -1,10 +1,12 @@
 package aplicacion;
-
 import dominio.Producto;
 import javax.swing.*;
 import java.util.Random;
 
-public class Ecamen_U1 {
+//La aplicacion es un examen de la capturacion de un producto 
+//y  se dara un menu para moestrar los datos de producto 
+// busca producto, baja el precio de los productos y maneja una matriz
+public class Examen_U1 {
     public static void main(String[] args) {
         Producto articulo [];
         articulo= new Producto[15];
@@ -86,7 +88,7 @@ public class Ecamen_U1 {
 
                     }
                     break;
-                case 4://NO RECUERDO  MUY BIEN COMO LO REALIZABAS PERO SEGUN YOO ESTA BIEN
+                case 4:
                     //Modificar el precio de TODOS los productos del vector,
                     // disminuyendo un 5% a su precio
                     double descuetno = 0.05;
@@ -122,18 +124,6 @@ public class Ecamen_U1 {
                         }
                         cadena += "\n";
                     }
-                    /*for (int i = 0; i < m.length; i++) {
-                        for (int j = 0; j < m[i].length; j++) {
-                            if(m[i]==m[j]){
-                                m[i][j]+=1;
-                                cadena += m[i][j] + ",";
-                            } else
-                                m[i][j]+=0;
-                            cadena += m[i][j] + ",";
-                            cadena += "\n";
-                        }
-                    }
-                     */
                   JOptionPane.showInputDialog(null, cadena);
 
                     break;

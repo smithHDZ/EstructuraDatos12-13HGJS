@@ -2,7 +2,6 @@ package aplicacion;
 
 import dominio.ColaCircularEscuelas;
 import dominio.Escuela;
-
 import javax.swing.*;
 
 public class ExamenReg3 {
@@ -22,10 +21,7 @@ public class ExamenReg3 {
         menu += "5.  Buscar una escuela \n";
         menu += "6.  Salir \n";
 
-        totalOpciones = 6;  // ACTUALIZAR SIEMPRE ESTA VARIABLE PARA AJUSTARSE AL TOTAL DE OPCIONES
-
-        // CICLO ITERATIVO QUE PRESENTA EL MENU DE OPCIONES HASTA QUE EL USUARIO SELECCIONE LA OPCION Salir
-
+        totalOpciones = 6;  
         do {
             // SE CAPTURA DEL TECLADO UN ENTERO (NUMERO DE LA OPCION) SEGUN EL MENU PRESENTADO
             opcion = Integer.parseInt (JOptionPane.showInputDialog (menu));

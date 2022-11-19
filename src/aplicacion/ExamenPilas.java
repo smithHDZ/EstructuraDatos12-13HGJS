@@ -94,7 +94,5 @@ public class ExamenPilas {
             }  //  FIN DEL SWITCH
 
         } while (opcion != totalOpciones);   // FIN DEL DO..WHILE
-
-
     }
 }

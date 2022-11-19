@@ -8,7 +8,9 @@ import javax.swing.*;
 
 public class EUnidad3 {
     public static void main(String [] args)
-    {
+    { 
+        //la aplicacion es un examen de todo  lo que se vio en la unidad de la unidad 3 lo
+        // cual es hacerca de las colas lineales y circulares 
         ColaCircularVuelos extranjeros = new ColaCircularVuelos(7);
         ColaLinealVuelos nacionales = new ColaLinealVuelos(7);
         String destino;
@@ -25,21 +27,16 @@ public class EUnidad3 {
         menu += "6.  Suma TOTAL de precios \n";
         menu += "7.  Vuelo Extranjero más barato \n";
         menu += "8.  Salir \n";
-
         totalOpciones = 8;
-
         while(opcion != totalOpciones)
         {
             opcion = Integer.parseInt(JOptionPane.showInputDialog(menu));
-
             switch(opcion)
             {
                 case 1:
                     destino = JOptionPane.showInputDialog("Ingrese el destino del vuelo");
                     precio = Float.parseFloat(JOptionPane.showInputDialog("Ingrese el precio del vuelo"));
-
-                    if(precio <= 10000)
-                    {
+                    if(precio <= 10000){
                         if(nacionales.estaLlena())
                         {
                             JOptionPane.showMessageDialog(null,
@@ -50,8 +47,7 @@ public class EUnidad3 {
                             nacionales.insertar(new Vuelo(destino, precio));
                         }
                     }
-                    else
-                    {
+                    else {
                         if(extranjeros.estaLlena())
                         {
                             JOptionPane.showMessageDialog(null,
@@ -61,31 +57,22 @@ public class EUnidad3 {
                         {
                             extranjeros.insertar(new Vuelo(destino, precio));
                         }
-                    }
-                    break;
+                    }break;
 
                 case 2:
-                    if(nacionales.estaVacia())
-                    {
+                    if(nacionales.estaVacia()) {
                         JOptionPane.showMessageDialog(null, "No hay vuelos nacionales para mostrar!");
-                    }
-                    else
-                    {
+                    } else {
                         JOptionPane.showMessageDialog(null, "Vuelos nacionales: \n" +
                                 nacionales.toString());
-                    }
-                    break;
+                    } break;
 
                 case 3:
-                    if(extranjeros.estaVacia())
-                    {
+                    if(extranjeros.estaVacia()) {
                         JOptionPane.showMessageDialog(null, "No hay vuelos extranjeros para mostrar!");
-                    }
-                    else
-                    {
+                    } else {
                         JOptionPane.showMessageDialog(null, "Vuelos extranjeros: \n" + extranjeros.toString());
-                    }
-                    break;
+                    } break;
 
                 case 4:
                     if(nacionales.estaVacia())

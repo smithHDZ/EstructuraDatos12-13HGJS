@@ -27,13 +27,9 @@ public class ExamenUnidad3 {
         menu += "7.  Matera de Basicas con mas creditos";
         menu += "8.  Salir \n";
 
-        totalOpciones = 8;  // ACTUALIZAR SIEMPRE ESTA VARIABLE PARA AJUSTARSE AL TOTAL DE OPCIONES
-
-        // CICLO ITERATIVO QUE PRESENTA EL MENU DE OPCIONES HASTA QUE EL USUARIO SELECCIONE LA OPCION Salir
+        totalOpciones = 8;  
         do {
-            // SE CAPTURA DEL TECLADO UN ENTERO (NUMERO DE LA OPCION) SEGUN EL MENU PRESENTADO
             opcion = Integer.parseInt (JOptionPane.showInputDialog (menu));
-
             switch (opcion){
                 case 1:
                     /*
