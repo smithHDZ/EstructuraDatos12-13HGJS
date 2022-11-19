@@ -21,13 +21,9 @@ public class Practica3U2 {
         menu += "4.  Mostrar pilas de signos  \n";
         menu += "5.  Salir \n";
 
-        totalOpciones = 5;  // ACTUALIZAR SIEMPRE ESTA VARIABLE PARA AJUSTARSE AL TOTAL DE OPCIONES
-
-        // CICLO ITERATIVO QUE PRESENTA EL MENU DE OPCIONES HASTA QUE EL USUARIO SELECCIONE LA OPCION Salir
+        totalOpciones = 5; 
         do {
-            // SE CAPTURA DEL TECLADO UN ENTERO (NUMERO DE LA OPCION) SEGUN EL MENU PRESENTADO
             opcion = Integer.parseInt(JOptionPane.showInputDialog(menu));
-
             switch (opcion) {
                 case 1:
                     //leer un enunciado
@@ -49,7 +45,6 @@ public class Practica3U2 {
                             }
                         }
                     }
-
                     break;
                 case 2:
                     //mostrar pilas de letras

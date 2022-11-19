@@ -25,13 +25,9 @@ public class Practica2U2 {
             menu += "7.  vaciar pila \n";
             menu += "8.  Salir \n";
 
-            totalOpciones = 8;  // ACTUALIZAR SIEMPRE ESTA VARIABLE PARA AJUSTARSE AL TOTAL DE OPCIONES
-
-            // CICLO ITERATIVO QUE PRESENTA EL MENU DE OPCIONES HASTA QUE
-        // EL USUARIO SELECCIONE LA OPCION Salir
+            totalOpciones = 8;
 
             do {
-                // SE CAPTURA DEL TECLADO UN ENTERO (NUMERO DE LA OPCION) SEGUN EL MENU PRESENTADO
                 opcion = Integer.parseInt (JOptionPane.showInputDialog (menu));
 
                 switch (opcion){
@@ -49,14 +45,16 @@ public class Practica2U2 {
                             pilaF.insertar(new Factura(numero, cliente, saldo));
                         }
                         break;
-                    case 2: //desplegar el contenido que se encuentran
-                        // en la pila, así como la cantidad de facturas
+                    case 2: 
+                    //desplegar el contenido que se encuentran
+                    // en la pila, así como la cantidad de facturas
                         JOptionPane.showMessageDialog
                                 (null, pilaF.toString() + pilaF.numElementos());
                         break;
-                    case 3: //eliminar la factura correspondiente y
-                        // desplegar sus datos en pantalla, si esta vacía, se despliega un mensaje indicando
-                        //que no se pudo eliminar ninguna factura
+                    case 3: 
+                    //eliminar la factura correspondiente y
+                    // desplegar sus datos en pantalla, si esta vacía, se despliega un mensaje indicando
+                    //que no se pudo eliminar ninguna factura
                         if(pilaF.estaVacia()){
                             JOptionPane.showMessageDialog(null,
                                     "No se puede eliminar ninguna factura");
@@ -65,7 +63,8 @@ public class Practica2U2 {
                                     "Dato eliminado: " + pilaF.eliminar());
                         }
                         break;
-                    case 4: //Se suman los saldos de todas las facturas y se despliega esta suma en pantalla
+                    case 4: 
+                    //Se suman los saldos de todas las facturas y se despliega esta suma en pantalla
                         if (pilaF.estaVacia()) {
                             JOptionPane.showMessageDialog(null,
                                     "No hay saldo");
@@ -87,8 +86,6 @@ public class Practica2U2 {
                         break;
 
                     case 6:
-
-
                         if (pilaF.estaVacia()) {
                             JOptionPane.showMessageDialog(null,
                                     "No hay clientes");

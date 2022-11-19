@@ -30,11 +30,8 @@ public class Tarea2 {
         menu += "6.  intercambiar filas \n";
         menu += "7.  Salir \n";
 
-        totalOpciones = 7;  // ACTUALIZAR SIEMPRE ESTA VARIABLE PARA AJUSTARSE AL TOTAL DE OPCIONES
-
-        // CICLO ITERATIVO QUE PRESENTA EL MENU DE OPCIONES HASTA QUE EL USUARIO SELECCIONE LA OPCION Salir
+        totalOpciones = 7;
         do {
-            // SE CAPTURA DEL TECLADO UN ENTERO (NUMERO DE LA OPCION) SEGUN EL MENU PRESENTADO
             opcion = Integer.parseInt (JOptionPane.showInputDialog (menu));
             switch (opcion){
                 case 1://Generar una matriz
@@ -49,7 +46,6 @@ public class Tarea2 {
                         cadena += "\n";
                     }
                     break;
-
                 case 2://mostrar la matriz creada
                     JOptionPane.showMessageDialog(null, cadena);
                     break;
@@ -74,7 +70,6 @@ public class Tarea2 {
                         cadena += "\n";
                     }
                     JOptionPane.showMessageDialog(null, cadena);
-
                     break;
                 case 5:
                     int sumadiagonal =0;

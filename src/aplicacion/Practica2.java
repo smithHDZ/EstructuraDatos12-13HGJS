@@ -25,11 +25,8 @@ public class Practica2 {
         menu += "6.  Canciones de Luis miguel \n";
         menu += "7.  Salir \n";
 
-        totalOpciones = 7;  // ACTUALIZAR SIEMPRE ESTA VARIABLE PARA AJUSTARSE AL TOTAL DE OPCIONES
-
-        // CICLO ITERATIVO QUE PRESENTA EL MENU DE OPCIONES HASTA QUE EL USUARIO SELECCIONE LA OPCION Salir
+        totalOpciones = 7; 
         do {
-            // SE CAPTURA DEL TECLADO UN ENTERO (NUMERO DE LA OPCION) SEGUN EL MENU PRESENTADO
             opcion = Integer.parseInt (JOptionPane.showInputDialog (menu));
 
             switch (opcion){
