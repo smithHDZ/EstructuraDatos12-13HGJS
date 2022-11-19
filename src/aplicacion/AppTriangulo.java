@@ -1,5 +1,5 @@
 package aplicacion;
-import javax.swing.JOptionPane;
+//import javax.swing.JOptionPane;
 import dominio.Triangulo;
 
 public class AppTriangulo {
@@ -7,7 +7,6 @@ public class AppTriangulo {
 
         //declaracion de dos referencias
         Triangulo tri1 ,tri2;
-
 
         tri1= new Triangulo ( );
         tri2= new Triangulo (5.43f,3.76f, 2.34f  );

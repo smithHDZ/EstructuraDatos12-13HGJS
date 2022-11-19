@@ -1,8 +1,6 @@
 package aplicacion;
-
 import javax.swing.*;
 import java.util.Random;
-
 public class borrador
 {
     public static void main(String[] args) {
