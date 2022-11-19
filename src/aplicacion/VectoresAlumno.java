@@ -17,7 +17,6 @@ public class VectoresAlumno {
         //declarar 2 vectores
         Alumno [] gp1, gp2;
 
-
         //crear el 1er vector
         gp1 =new Alumno[10];
         //crear el 2do vector

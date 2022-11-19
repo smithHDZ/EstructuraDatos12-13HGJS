@@ -1,27 +1,20 @@
 package aplicacion;
-
 import dominio.Automovil;
 import dominio.ColaCircularAutos;
-
 import javax.swing.*;
-
 public class U3Practica3 {
     public static void main(String[] args) {
         ColaCircularAutos autolavado = new ColaCircularAutos(7);
         String placa, propietario;
         int dinero = 500, totalAutos = 0;
-
         int opcion = 0, totalOpciones;
-
         String menu = "             MENU DE OPCIONES \n";
         menu += "1.  Entrada de un auto \n";
         menu += "2.  Lavar el siguiente auto \n";
         menu += "3.  Nostrar lista de automoviles \n";
         menu += "4.  Reporte financiero \n";
         menu += "5.  Salir \n";
-
         totalOpciones = 5;
-
         while(opcion != totalOpciones)
         {
             opcion = Integer.parseInt(JOptionPane.showInputDialog(menu));

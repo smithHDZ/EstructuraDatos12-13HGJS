@@ -1,8 +1,6 @@
 package aplicacion;
 
 import dominio.ColaCircularString;
-
-
 import javax.swing.*;
 
 public class U3Practica2 {
@@ -11,8 +9,6 @@ public class U3Practica2 {
         String nombre;
 
         int opcion, num, totalOpciones;
-
-        // VARIABLE String  DONDE SE VAN AGREGANDO LAS OPCIONES DEL MENU
         String menu = "             MENU DE OPCIONES \n";
         menu += "1.  Capturar de una persona \n";
         menu += "2.  Mostrar lista de personas \n";

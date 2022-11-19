@@ -14,9 +14,7 @@ public class Tarea2U2 {
         String menu = "             MENU DE OPCIONES \n";
         menu += "1.  Leer un enunciado \n";
         menu += "2.  Salir \n";
-
         totalOpciones = 2;
-
         while(opcion != totalOpciones)
         {
             opcion = Integer.parseInt(JOptionPane.showInputDialog(menu));
@@ -46,7 +44,6 @@ public class Tarea2U2 {
                             }
                         }
                     }
-
                     if(p.numElementos() > 0)
                     {
                         JOptionPane.showMessageDialog(null, "La expresión no es válida porque ha habido paréntesis sin cerrar");
@@ -60,7 +57,6 @@ public class Tarea2U2 {
                         JOptionPane.showMessageDialog(null, "Expresión válida!!!");
                     }
                     break;
-
                 case 2:
                     JOptionPane.showMessageDialog(null, "Adiós!");
                     break;

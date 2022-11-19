@@ -2,7 +2,6 @@ package aplicacion;
 
 import dominio.ListaLinealAlumnos;
 import dominio.NodoAlumno;
-
 import javax.swing.*;
 
 public class U4Tarea1 {
@@ -23,11 +22,8 @@ public class U4Tarea1 {
         menu += "5.   Aumentar 5 puntos a las calificaciones" ;
         menu += "6.   Salir \n";
 
-        totalOpciones = 6;  // ACTUALIZAR SIEMPRE ESTA VARIABLE PARA AJUSTARSE AL TOTAL DE OPCIONES
-
-        // CICLO ITERATIVO QUE PRESENTA EL MENU DE OPCIONES HASTA QUE EL USUARIO SELECCIONE LA OPCION Salir
+        totalOpciones = 6; 
         do {
-            // SE CAPTURA DEL TECLADO UN ENTERO (NUMERO DE LA OPCION) SEGUN EL MENU PRESENTADO
             opcion = Integer.parseInt(JOptionPane.showInputDialog(menu));
 
             switch (opcion) {

@@ -29,7 +29,6 @@ public class UsaMenu{
         menu += "5.  Eliminar el ULTIMO libro de comedia";
         menu += "6.  LIbros de precio mayor a $400 pesos";
         menu += "7.  Salir \n";
-
         totalOpciones = 7;  // ACTUALIZAR SIEMPRE ESTA VARIABLE PARA AJUSTARSE AL TOTAL DE OPCIONES
 
         // CICLO ITERATIVO QUE PRESENTA EL MENU DE OPCIONES HASTA QUE EL USUARIO SELECCIONE LA OPCION Salir

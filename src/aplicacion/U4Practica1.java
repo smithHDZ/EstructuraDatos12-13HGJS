@@ -2,7 +2,6 @@ package aplicacion;
 
 import dominio.Listalibros;
 import dominio.NodoLibro;
-
 import javax.swing.*;
 
 public class U4Practica1 {
@@ -24,13 +23,11 @@ public class U4Practica1 {
         menu += "7.   Buscar libro de misterio \n";
         menu += "8.   Aumentar precio de un libro de comedia";
         menu += "9.   Salir \n";
-
         totalOpciones = 9;
 
         while(opcion != totalOpciones)
         {
             opcion = Integer.parseInt(JOptionPane.showInputDialog(menu));
-
             switch(opcion)
             {
                 case 1:
