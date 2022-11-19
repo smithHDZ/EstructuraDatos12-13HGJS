@@ -1,14 +1,11 @@
 package aplicacion;
-
 import dominio.ListaLineal;
 import dominio.Nodo;
 
 import javax.swing.*;
-
 //practica de la unidad 4 sobre listas
 /*
-CLASE PARA USAR
-LISTA ENLAZADA
+CLASE PARA USAR LISTA ENLAZADA
  */
 public class Practica1U4EJ {
     public static void main(String[] args) {
@@ -29,11 +26,8 @@ public class Practica1U4EJ {
 
         menu += "5.   Salir \n";
 
-        totalOpciones = 5;  // ACTUALIZAR SIEMPRE ESTA VARIABLE PARA AJUSTARSE AL TOTAL DE OPCIONES
-
-        // CICLO ITERATIVO QUE PRESENTA EL MENU DE OPCIONES HASTA QUE EL USUARIO SELECCIONE LA OPCION Salir
+        totalOpciones = 5; 
         do {
-            // SE CAPTURA DEL TECLADO UN ENTERO (NUMERO DE LA OPCION) SEGUN EL MENU PRESENTADO
             opcion = Integer.parseInt(JOptionPane.showInputDialog(menu));
 
             switch (opcion) {

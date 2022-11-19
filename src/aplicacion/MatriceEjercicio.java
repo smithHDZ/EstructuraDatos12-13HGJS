@@ -3,7 +3,6 @@ package aplicacion;
 
 import javax.swing.*;
 import java.util.Arrays;
-
 public class MatriceEjercicio {
     public static void main(String[] args) {
 
@@ -24,7 +23,6 @@ public class MatriceEjercicio {
                     System.out.print (m[i][j] + "   ");
                 System.out.println ();   //brinca renglon
             }
-
             // MANEJO DE UNA MATRIZ IRREGULAR
             int mir[][] = new int [6][];  //solo se crea el vector principal
             System.out.println (Arrays.toString (mir) );

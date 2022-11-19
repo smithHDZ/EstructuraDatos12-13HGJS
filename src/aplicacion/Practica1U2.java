@@ -1,9 +1,6 @@
 package aplicacion;
-
 import dominio.PilaString;
-
 import javax.swing.*;
-
 public class Practica1U2 {
     public static void main(String[] args) {
         PilaString nombresNZ = new PilaString(7);
@@ -19,18 +16,14 @@ public class Practica1U2 {
         menu += "4.  Eliminar un nombre de A a M \n";
         menu += "5.  Eliminar un nombre de N a Z \n";
         menu += "6.  Salir \n";
-
         while(opcion != totalOpciones)
         {
             opcion = Integer.parseInt(JOptionPane.showInputDialog(menu));
-
             switch(opcion)
             {
                 case 1:
-
                     captura = JOptionPane.showInputDialog("Introduce el nombre que vayas a insertar");
                     s = captura.toUpperCase().charAt(0);
-
                     if(nombresAM.estaLlena())
                     {
                         JOptionPane.showMessageDialog(null,
@@ -44,7 +37,6 @@ public class Practica1U2 {
                         }
 
                     }
-
                     if(nombresNZ.estaLlena())
                     {
                         JOptionPane.showMessageDialog(null,
@@ -58,9 +50,7 @@ public class Practica1U2 {
                         }
                     }
                     break;
-
                 case 2:
-
                     if(nombresAM.estaVacia())
                     {
                         JOptionPane.showMessageDialog(null,

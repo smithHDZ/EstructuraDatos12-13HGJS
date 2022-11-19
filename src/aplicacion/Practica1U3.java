@@ -1,9 +1,7 @@
 package aplicacion;
 
 import dominio.ColaString;
-
 import javax.swing.*;
-
 public class Practica1U3 {
     public static void main(String[] args) {
         // DECLARACION DE VARIABLES
