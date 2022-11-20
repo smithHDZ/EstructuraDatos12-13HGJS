@@ -5,6 +5,7 @@ import dominio.Triangulo;
 public class AppTriangulo {
     public static void main(String[] args) {
 
+        
         //declaracion de dos referencias
         Triangulo tri1 ,tri2;
 

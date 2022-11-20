@@ -2,7 +2,6 @@ package aplicacion;
 
 import dominio.ArbolBinario;
 import dominio.NodoArbolBin;
-
 import javax.swing.*;
 
 public class EjemploArbolBinario {

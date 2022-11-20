@@ -3,7 +3,6 @@ package aplicacion;
 import dominio.ArbolBinarioAlumno;
 import dominio.NodoArbolBinAlumno;
 import javax.swing.*;
-
 public class ExamenU5 {
     public static void main(String[] args) {
         // DECLARACION DE VARIABLES
