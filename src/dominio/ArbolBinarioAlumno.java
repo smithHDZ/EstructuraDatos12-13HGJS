@@ -1,5 +1,6 @@
 package dominio;
 
+
 public class ArbolBinarioAlumno {
     // Atributo (solo la raíz del árbol)
     private NodoArbolBinAlumno raiz;

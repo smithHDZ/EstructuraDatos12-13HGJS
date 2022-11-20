@@ -1,6 +1,5 @@
 package dominio;
 
-
 public class ColaCircularVuelos {
     private Vuelo cc[ ];		   // Este es el vector donde se guardan los datos
     private int frente;             // Apuntador al frente , YA NO SE NECESITA EL APUNTADOR DEL FINAL

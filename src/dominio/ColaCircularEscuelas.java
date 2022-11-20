@@ -1,6 +1,5 @@
 package dominio;
 
-
 public class ColaCircularEscuelas {
     private Escuela cc[];
     private int frente ;
