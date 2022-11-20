@@ -1,5 +1,6 @@
 package dominio;
 
+
 public class ColaCircularMaterias {
     // ATRIBUTOS
     private Materia cc[ ];		   // Este es el vector donde se guardan los datos

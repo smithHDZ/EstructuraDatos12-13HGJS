@@ -4,15 +4,13 @@ public class ColaString {
     private int c[];
     private int frente, fin;
 
-    public ColaString()
-    {
+    public ColaString()  {
         c = new int[5];
         frente = 0;
         fin = -1;
     }
 
-    public ColaString(int n)
-    {
+    public ColaString(int n) {
         c = new int[n];
         frente = 0;
         fin = -1;

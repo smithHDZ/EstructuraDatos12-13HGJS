@@ -4,15 +4,13 @@ public class ColaLinealMaterias {
     private Materia c [];
     private int frente, fin;
 
-    public ColaLinealMaterias()
-    {
+    public ColaLinealMaterias() {
         c = new Materia[5];
         frente = 0;
         fin = -1;
     }
 
-    public ColaLinealMaterias(int n)
-    {
+    public ColaLinealMaterias(int n) {
         c = new Materia[n];
         frente = 0;
         fin = -1;

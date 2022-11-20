@@ -1,5 +1,6 @@
 package dominio;
 
+
 public class ColaCircularString {
     // ATRIBUTOS
     private String cc[ ];		   // Este es el vector donde se guardan los datos

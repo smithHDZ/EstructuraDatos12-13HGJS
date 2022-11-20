@@ -1,11 +1,11 @@
 package dominio;
 
+
 public class ColaInt {
     private int c[];
     private int frente, fin;
 
-    public ColaInt()
-    {
+    public ColaInt() {
         c = new int[5];
         frente = 0;
         fin = -1;

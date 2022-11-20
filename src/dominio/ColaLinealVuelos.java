@@ -4,15 +4,13 @@ public class ColaLinealVuelos {
     private Vuelo c[ ];
     private int frente, fin;
 
-    public ColaLinealVuelos()
-    {
+    public ColaLinealVuelos() {
         c = new Vuelo[5];
         frente = 0;
         fin = -1;
     }
 
-    public ColaLinealVuelos(int n)
-    {
+    public ColaLinealVuelos(int n) {
         c = new Vuelo[n];
         frente = 0;
         fin = -1;
