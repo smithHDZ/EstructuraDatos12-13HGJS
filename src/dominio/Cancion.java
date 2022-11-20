@@ -8,28 +8,24 @@ public class Cancion
     private String interprete;
     private int duracion;
     
-    public Cancion(String tit, String interp, int dur)
-    {
+    public Cancion(String tit, String interp, int dur) {
         titulo = tit;
         interprete = interp;
         duracion = dur;
     }
 
     
-    public String getTitulo()
-    {
+    public String getTitulo() {
         return titulo;
     }
     
    
-    public String getInterprete()
-    {
+    public String getInterprete() {
         return interprete;
     }
     
     
-    public int getDuracion()
-    {
+    public int getDuracion() {
         return duracion;
     }
     

@@ -9,8 +9,7 @@ public class Automovil {
     /**
      * Constructor for objects of class Automovil
      */
-    public Automovil()
-    {
+    public Automovil() {
         // initialise instance variables
         placa = "";
         propietario ="";

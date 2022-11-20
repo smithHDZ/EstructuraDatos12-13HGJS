@@ -6,8 +6,7 @@ public class Alumno {
     private float cal1;
     private float cal2;
 
-    public Alumno(String nombre, int grupo, float cal1,float cal2)
-    {
+    public Alumno(String nombre, int grupo, float cal1,float cal2){
         this.nombre=nombre;
         this.grupo=grupo;
         this.cal1=cal1;

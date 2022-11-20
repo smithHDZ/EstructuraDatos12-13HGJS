@@ -5,8 +5,7 @@ public class ArbolBinarioAlumno {
     private NodoArbolBinAlumno raiz;
 
     // Constructor (crea un árbol binario vacío)
-    public ArbolBinarioAlumno( )
-    {
+    public ArbolBinarioAlumno( ) {
         raiz = null;
     }
 

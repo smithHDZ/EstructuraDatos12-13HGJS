@@ -1,5 +1,6 @@
 package dominio;
 
+
 public class ColaCircularAutos {
     // ATRIBUTOS
     private Automovil cc[ ];		   // Este es el vector donde se guardan los datos
