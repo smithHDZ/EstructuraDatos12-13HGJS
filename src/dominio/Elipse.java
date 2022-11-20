@@ -1,7 +1,6 @@
 package dominio;
 
-public class Elipse
-{
+public class Elipse{
     private float radioMayor;
     private float radioMenor;
 

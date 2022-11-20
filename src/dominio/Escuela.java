@@ -1,5 +1,6 @@
 package dominio;
 
+
 public class Escuela {
     private String nombre;
     private int numAlumnos;
